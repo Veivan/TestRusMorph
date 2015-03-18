@@ -30,7 +30,7 @@ public class StringAnalizier {
 		luceneMorph = new RussianLuceneMorphology();
 	}
 
-	public void Analize(String tokens) {
+	public void Analyze(String tokens) {
 		tokenslist.clear();
 		String[] words = tokens.split(" ");
 		String out = "";

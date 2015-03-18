@@ -18,7 +18,7 @@ public class UseRusMorph {
 		try {
 			String tokens = "я не верю своим глазам локомотив ростов хороший матч";
 			StringAnalizier stran = new StringAnalizier();
-			stran.Analize(tokens);
+			stran.Analyze(tokens);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
