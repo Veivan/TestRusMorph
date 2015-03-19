@@ -14,7 +14,8 @@ import org.apache.lucene.morphology.russian.RussianLuceneMorphology;
 public class UseRusMorph {
 
 	public static void main(String[] args) {
-		// AnalizeText();
+		// Test 3
+		AnalizeText();
 		try {
 			String tokens = "я не верю своим глазам локомотив ростов хороший матч";
 			StringAnalizier stran = new StringAnalizier();
